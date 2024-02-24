@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  --primary-color: #020202fd;
-  --font-padrao: "Arial", sans-serif;
+  --color-black: #020202fd;
+  --font-padrao: "Inter", sans-serif;
+
+  --background-color:  linear-gradient(to right, #9ec4e5, #c5d147);
 }
 .container {
   max-width: 100%;
@@ -22,9 +24,11 @@ textarea {
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  color: rgb(95, 168, 184);
+  color: var(--color-black);
+  font-family: var(--font-padrao);
+  text-decoration: none;
 }
 
 body {
-  background: linear-gradient(to right, #0e0625, #c99889);
+  background: linear-gradient(to right, #9ec4e5, #c5d147);
 }

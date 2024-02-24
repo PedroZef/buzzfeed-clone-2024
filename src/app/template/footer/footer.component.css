@@ -1,13 +1,13 @@
+.footer {
+  background-color: var(--background-color);
+}
+
 .footer span {
   align-items: center;
   display: block;
   padding: auto;
   justify-content:space-between;
   text-align: center;
-}
-
-.dev a {
-
 }
 
  .dev a:hover {
