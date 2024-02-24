@@ -1,0 +1,25 @@
+.footer span {
+  align-items: center;
+  display: block;
+  padding: auto;
+  justify-content:space-between;
+  text-align: center;
+}
+
+.dev a {
+
+}
+
+ .dev a:hover {
+  opacity: 1;
+}
+
+.dev a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  opacity: .8;
+  transition: all .3s ease-in-out;
+  background-size: 100%;
+
+}
