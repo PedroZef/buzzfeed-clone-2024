@@ -1,9 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
   --color-black: #020202fd;
+  --color-white: white;
   --font-padrao: "Inter", sans-serif;
 
-  --background-color:  linear-gradient(to right, #9ec4e5, #c5d147);
+  --background-body:  linear-gradient( #9ec4e5, #c5d147);
+  --background-footer:  linear-gradient(to right, rgb(74, 95, 52),  #e64c97);
 }
 .container {
   max-width: 100%;
@@ -30,5 +32,11 @@ textarea {
 }
 
 body {
-  background: linear-gradient(to right, #9ec4e5, #c5d147);
+  width: 100%;
+  max-height:  100vh;
+  background: linear-gradient(#9ec4e5, #4947d1);
+}
+
+.footer {
+  bottom: 0;
 }

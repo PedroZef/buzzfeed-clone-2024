@@ -26,7 +26,7 @@
   align-items: center;
   border: 1px solid #4224d9;
   border-radius: 8px;
-  background-color: #63c8cf;
+  background: var(--background-footer);
   width: 100%;
   height: 200px;
   font-size: 20px;
@@ -49,7 +49,7 @@
   width: 50%;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
+  color:  var(--color-white);
   font-family: var(--font-padrao);
   font-size: 17px;
   padding: 16px 31px;
@@ -58,7 +58,7 @@
 }
 
 .btn-option:hover {
-  background-color: #5645b6;
+  background-color: #1f098c;
 }
 
 .btn-option:active {
@@ -69,11 +69,11 @@
 .quizz_results {
   width: 100%;
   height: 350px;
-  background-color: #d2db80;
+  background-color: #8081db;
   border-radius: 10px;
   padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center
 }
